@@ -30,8 +30,8 @@ Challenge Complete.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ordersummary-component-tzhgpErV4)
+- Live Site URL: [Live Demo](https://codenamegrant.github.io/frontend-mentor/newbie/order-summary-component/)
 
 ## My process
 
