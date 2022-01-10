@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  /* Primary */
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --color-very-pale-blue: hsl(225, 100%, 98%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-dark-blue: hsl(223, 47%, 23%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Mobile First */
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  height: 95vh;
+  background-color: var(--color-pale-blue);
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-summary {
+  width: 325px;
+  margin: auto;
+}
+
+.order-summary > img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.container {
+  padding: 1.5em;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h3 {
+  margin: 0.2em 0;
+}
+
+.heading p {
+  color: grey;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.order {
+  background-color: var(--color-very-pale-blue);
+  border-radius: 10px;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.item {
+  margin-left: 1.2em;
+  font-size: 0.9rem;
+}
+
+.item__title {
+  font-weight: 900;
+}
+
+.item__price {
+  color: grey;
+  font-weight: 500;
+}
+
+.order a {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.order a:hover,
+.order a:focus {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.actions {
+  margin-top: 1em;
+}
+
+.actions a {
+  display: block;
+  text-align: center;
+  margin-top: 1em;
+  padding: 0.75em 0;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.actions--primary {
+  background-color: var(--color-bright-blue);
+  color: white;
+  box-shadow: 0 15px 15px 5px var(--color-pale-blue);
+}
+
+.actions--primary:hover,
+.actions--primary:focus {
+  opacity: 0.6;
+}
+
+.actions--secondary {
+  color: grey;
+}
+
+.actions--secondary:hover,
+.actions--secondary:focus {
+  color: black;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }
+}
