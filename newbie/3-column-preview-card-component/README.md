@@ -9,7 +9,7 @@ Challenge Complete.
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/ordersummary-component-tzhgpErV4)
+- Solution URL: [Solution](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-3column-preview-card-using-htmlcss-xxPvxqg7S)
 - Live Site URL: [Live Demo](https://codenamegrant.github.io/frontend-mentor/newbie/3-column-preview-card-component/)
 
 ## Author
