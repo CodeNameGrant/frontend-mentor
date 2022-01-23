@@ -1,6 +1,6 @@
-# Frontend Master Challenges
+# Frontend Mentor Challenges
 
-This repo contains the Frontend Master challenges that are either complete or in progress.
+This repo contains the Frontend Mentor challenges that are either complete or in progress.
 
 Newbie
 
