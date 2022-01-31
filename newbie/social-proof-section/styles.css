@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+/* 
+font-family: 'Spartan', sans-serif;
+*/
+
+:root {
+  --color-dark-magenta: hsl(300, 43%, 22%);
+  --color-soft-pink: hsl(333, 80%, 67%);
+
+  --color-dark-grayish-magenta: hsl(303, 10%, 53%);
+  --color-light-grayish-magenta: hsl(300, 24%, 96%);
+  --color-white: hsl(0, 0%, 100%);
+
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  color: var(--color-dark-grayish-magenta);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+body {
+  /* TODO: backgrounds */
+  margin: 5%;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-dark-magenta);
+}
+
+.ratings {
+  margin-top: 2em;
+}
+
+.rating {
+  background-color: var(--color-light-grayish-magenta);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.rating:not(:first-of-type) {
+  margin-top: 1em;
+}
+
+.rating img {
+  margin: 0 0.1em 0.5em 0.1em;
+}
+
+.rating div {
+  color: var(--color-dark-magenta);
+  font-weight: bold;
+}
+
+.reviews {
+  margin-top: 2em;
+}
+
+.review {
+  padding: 2em;
+  background-color: var(--color-dark-magenta);
+  color: var(--color-light-grayish-magenta);
+  border-radius: 10px;
+}
+
+.review:not(:first-of-type) {
+  margin-top: 1em;
+}
+
+.review .profile {
+  display: flex;
+  align-items: center;
+}
+
+.review img {
+  border-radius: 50%;
+  height: 45px;
+}
+
+.review .profile .details {
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+.review .profile .details .name {
+  margin-bottom: 0.3em;
+}
+
+.review .profile .details .rank {
+  color: var(--color-soft-pink);
+}
