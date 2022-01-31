@@ -45,7 +45,6 @@ header {
 
 header h1 {
   font-weight: 700;
-  text-align: center;
   color: var(--color-dark-magenta);
 }
 
@@ -108,4 +107,64 @@ header h1 {
 
 .review .profile .details .rank {
   color: var(--color-soft-pink);
+}
+
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: auto;
+    background-image: url('./images/bg-pattern-top-desktop.svg'),
+      url('./images/bg-pattern-bottom-desktop.svg');
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  header .intro {
+    /* flex-grow: 0.5; */
+    width: 30%;
+  }
+
+  header .ratings {
+    /* flex-grow: 1; */
+  }
+
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    width: 450px;
+  }
+
+  .rating img {
+    margin: 0;
+  }
+
+  .rating.step-1 {
+    margin-left: 2em;
+  }
+
+  .rating.step-2 {
+    margin-left: 4em;
+  }
+
+  .reviews {
+    display: flex;
+    gap: 2em;
+  }
+
+  .review {
+    height: 250px;
+  }
+
+  .review.step-1 {
+    margin-top: 2em;
+  }
+
+  .review.step-2 {
+    margin-top: 4em;
+  }
 }
