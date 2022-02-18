@@ -5,9 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "git:add-dist": "git add dist -f",
+    "git:commit-dist": "git commit -m \"latest build\"",
+    "git:push": "git push",
+    "git:deploy": "git subtree push --prefix dist origin gh-pages",
+    "deploy": "run-s build git:*"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
     "vite": "^2.8.0"
   },
   "dependencies": {
